@@ -1,0 +1,317 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    height: 100%;
+    margin: 0%;
+}
+
+.container
+{
+    height: 100%;
+    background-color: yellow;
+}
+
+    .header
+    {
+        height: 10%;
+        width: 100%;
+        background-color: pink;
+        display: flex;
+    }
+
+        .logo
+        {
+            background-color: white;
+            height: 100%;
+            width: 20%;
+            font-size: 80px;
+            color:#437e48;
+            font-family: "Raleway", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .pesquisa
+        {
+            background-color: white;
+            height: 100%;
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .barraPesquisa
+        {
+            height: 70%;
+            width: 80%;
+            border-radius: 20px;
+            border-color:#437e48;
+            margin-right: 5%;
+            font-size: medium;
+            box-shadow: 5px 5px 10px #888;
+            padding-left: 50px;
+        }
+
+        .logoPesquisa
+        {
+            width: 25px;
+            height: 25px;
+            position: fixed;
+            margin-right: 31%;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .botoes
+        {
+            background-color: white;
+            height: 100%;
+            width: 40%;
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+        }
+        #fale
+        {
+            color: #437e48;
+            background-color: transparent;
+            border: 0cm;
+            font-size: 25px;
+        }
+
+        #fale:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        #fale:active{
+            background-color: white;
+            color: #437e48;
+        }
+
+     
+
+        .perfil
+        {
+            height: 70%;
+            width: 10%;
+            border-radius: 100%;
+            border: 0cm;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+      
+
+    .meio
+    {
+        height: 90%;
+        width: 100%;
+        background-color: black;
+    }
+        .cima
+        {
+         height: 50%;
+         width: 100%;
+         background-color: aquamarine;
+        }  
+            .titulo1
+            {
+                height: 20%;
+                width: 100%;
+                background-color:white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .como
+            {
+                 height: 80%;
+                 width: 100%;
+                 background-color:#437e48;
+                 display: flex;
+                 justify-content: space-around;
+                 align-items: center;
+            }
+            .gap
+            {
+                height: 100%;
+                width: 10%;
+                background-color: #437e48;
+            }
+            .cardVerdeClaro
+            {
+                height: 45%;
+                width: 100%;
+                background-color: white;
+                display: flex;
+                justify-content: space-evenly;
+                flex-direction: column;
+                align-items: center;
+                border-top-left-radius: 13px;
+                border-top-right-radius: 13px;
+                border-bottom-left-radius: 13px;
+                border-bottom-right-radius: 13px;
+            }
+
+                .cards
+                {
+                    height: 100%;
+                    width: 15%;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                    border-radius: 14px;
+                }
+
+                    #numeros
+                    {
+                        height: 60%;
+                        font-size: 35px;
+                        margin-left: 29px;
+                        margin-top: 2.5px;
+                        color: white;
+                        font-family: arial;
+                    }
+                    
+                    .lupa
+                    {
+                        height: 65%;
+                        width: 35%;
+                        margin-left: 25px;
+                        margin-bottom: 25%;
+                    }
+
+                    .robo
+                    {
+                        height: 75%;
+                        width: 30%;
+                        margin-bottom: 25%;
+                    }
+
+                    .divsTextos
+                    {
+                        height: 30%;
+                        width: 100%;
+                        background-color: #437e48;
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        text-align: center;
+                        margin-right: 30%;
+                    }
+
+                    .textos
+                    {
+                        margin-top: 7%;
+                        width:130%;
+                        font-family: arial;
+                        font-size: 17px;
+                        color: white;
+                  
+                    }
+
+                    .cashback
+                    {
+                        color: black;
+                        height: 28%;
+                        width: 50%;
+                        font-size: 26px;
+                        font-family: Arial;
+                    }
+
+                    .Ativar
+                    {
+                        background-color: #437e48;
+                        border: 0;
+                        border-radius: 8px;
+                        font-size: 23px;
+                        color: white;
+                        font-family: Arial;
+                        margin-bottom: 18px;
+                        width: 45%;
+                    }
+        
+                .caixas
+                {
+                    height: 55%;
+                    width: 14%;
+                    background-color: lightgray;
+                    border-radius: 5%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                }
+                .planilha
+                {
+                    height: 70%;
+                    width: 55%;
+                    margin-left: 5%;
+                    margin-top: -10%;
+                }
+                .numeros
+                {
+                    font-size: 30px;
+                    margin-right: 80%;
+                }
+                .comousar
+                {
+                    font-size: 40px;
+                    color:#437e48;
+                    font-family: "Raleway", sans-serif;
+                    font-optical-sizing: auto;
+                    font-weight: weight;
+                    font-style: normal;
+                }
+                
+
+        .baixo
+        {
+            height: 100%;
+            width: 100%;
+            background-color: purple;
+        }
+            .titulo2
+            {
+                height: 20%;
+                width: 100%;
+                background-color: white;
+                display: flex;
+                justify-content: center;
+                align-items:end;
+                color: #437e48;
+                font-family: "Raleway", sans-serif;
+                font-optical-sizing: auto;
+                font-size: 35px;
+                font-weight: weight;
+                font-style: normal;
+            }
+
+            .lixeiras
+            {
+                height: 80%;
+                width: 100%;
+                background-color: white;
+                display: flex;
+                justify-content: space-around;
+                align-items: end;
+
+            }
+                .lixos
+                {
+                    height: 70%;
+                    width: 10%;
+                }

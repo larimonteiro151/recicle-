@@ -1,0 +1,343 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    height: 100%;
+    margin: 0;
+}
+
+#container
+{
+    height: 100%;
+}
+
+#header
+    {
+        height: 10%;
+        width: 100%;
+        background-color: pink;
+        display: flex;
+    }
+
+        .logo
+        {
+            background-color: white;
+            height: 100%;
+            width: 20%;
+            font-size: 80px;
+            color:#437e48;
+            font-family: "Raleway", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .pesquisa
+        {
+            background-color: white;
+            height: 100%;
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .barraPesquisa
+        {
+            height: 70%;
+            width: 80%;
+            border-radius: 20px;
+            border-color:#437e48;
+            margin-right: 5%;
+            font-size: medium;
+            box-shadow: 5px 5px 10px #888;
+            padding-left: 50px;
+        }
+
+        .logoPesquisa
+        {
+            width: 25px;
+            height: 25px;
+            position: fixed;
+            margin-right: 31%;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .botoes
+        {
+            background-color: white;
+            height: 100%;
+            width: 40%;
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+        }
+
+        #fale
+        {
+            color: #437e48;
+            background-color: transparent;
+            border: 0cm;
+            font-size: 25px;
+        }
+
+        #fale:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        #fale:active{
+            background-color: white;
+            color: #437e48;
+        }
+
+        .inicio
+        {
+            color: #437e48;
+            background-color: transparent;
+            border: 0cm;
+            font-size: 25px;
+        }
+        .inicio:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        .inicio:active{
+            background-color: white;
+            color: #437e48;
+        }
+
+        .chat
+        {
+            color: #437e48;
+            background-color: transparent;
+            border: 0cm;
+            font-size: 25px;
+        }
+        .chat:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        .chat:active{
+            background-color: white;
+            color: #437e48;
+        }
+
+        .perfil
+        {
+            height: 62%;
+            width: 8.5%;
+            border-radius: 100%;
+            border: 0cm;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #image{
+            height: 60px;
+            width: 60px;
+        } 
+        
+        #image:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        #image:active{
+            background-color: white;
+            color: #437e48;
+        }
+
+#meio
+{
+  height: 90%;
+  width: 100%;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+}
+
+    #nome-informaçoes
+    {
+        height: 27%;
+        width: 100%;
+        background-color: chartreuse;
+    }
+
+    #OlaUsu
+    {
+        height: 45%;
+        width: 100%;
+        background-color: #437e48;
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+        text-align: start;
+    }
+
+    .txtOla
+    {
+        font-family: "Raleway", sans-serif;
+        font-size: 35px;
+        color: white;
+        margin-left: 25px;
+        margin-bottom: 14px;
+    }
+
+    #tabela
+    {
+        height: 55%;
+        width: 100%;
+        background-color: #437e48;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .informaçoes-tabela
+    {
+        height: 100%;
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .txts-tabela
+    {
+        font-family: "Raleway", sans-serif;
+        font-size: 23px;
+        color: white;
+        line-height: 30px;
+    }
+
+    .div-imgs
+    {
+        height: 40%;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .div-txts
+    {
+        height: 40%;
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .img-pontos
+    {
+        height: 52px;
+        width: 55px;
+        margin-right: 8px;
+    }
+
+    .img-regional
+    {
+        height: 50px;
+        width: 50px;
+        margin-right: 18px;
+    }
+
+    .img-global
+    {
+        height: 70px;
+        width: 70px;
+        margin-right: 8px;
+    }
+
+            #texto-missoesP
+            {
+                height: 8%;
+                width: 100%;
+                background-color: white;
+                color: red;
+                display: flex;
+                font-family: "Raleway", sans-serif;
+                font-size: 30px;
+                justify-content: center;
+                flex-direction: center;
+                align-items: center;
+            }
+
+            #missoes
+            {
+                height: 65%;
+                background-color: white;
+                display: flex;
+                row-gap: 1px;
+                column-gap: 1px;
+                justify-content: center;
+                
+                align-content:space-evenly;
+                flex-wrap: wrap;
+            }
+            
+            .cards
+            {
+                height: 40%;
+                width: 27%;
+                background-color: #888;
+                margin: 15px;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .cards:hover{
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+            .dois
+            {
+                height: 100%;
+                width: 85%;
+            }
+          .gua
+          {
+            height: 100%;
+            width: 100%;
+            border-radius: 10px;
+          }
+
+          .dow
+          {
+            height: 100%;
+            width: 100%;
+            border-radius: 10px;
+          }
+
+          .col
+          {
+            height: 100%;
+            width: 100%;
+            border-radius: 10px;
+          }
+
+          .plas
+          {
+            height: 100%;
+            width: 100%;
+            border-radius: 10px;
+          }
+
+          .free 
+          {
+            height: 100%;
+            width: 100%;
+            border-radius: 10px;
+          }

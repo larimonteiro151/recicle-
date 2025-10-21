@@ -1,0 +1,164 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    height: 100%;
+    margin: 0%;
+}
+
+.container
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(inicio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header
+{
+    height: 15%;
+    width: 100%;
+}
+
+.meio
+{
+    height: 75%;
+    width: 100%;
+    display: flex;
+}
+
+#meioesquerda
+{
+    background-color:white;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 3%;
+}
+
+#meiodireita
+{
+    width: 55%;
+    height: 100%;
+}
+
+.titulo
+{
+    font-size: 80px;
+    color:#437e48;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-bottom: 6%;
+    margin-top: 8%;
+}
+
+.caixa
+{
+    height: 8%;
+    width: 45%;
+    border-radius: 12px;
+    border-color: gray;
+    margin: 10px;
+    padding-left: 20px;
+}
+
+.text
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgs
+{
+    height: 41px;
+    width: 51px;
+    display:flex;
+    flex-direction: row;
+    margin-right: 18%;
+    margin-bottom: 2%;
+}
+
+#botao
+{
+    height: 8%;
+    width: 28%;
+    background-color: #437e48;
+    color: white;
+    border: 0cm;
+    border-radius: 12px;
+    margin-right: 1%;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 90%;
+}
+#botao:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#botao:active {
+    background-color: white;
+    color: #437e48;
+}
+
+.footer
+{
+    height: 15%;
+    width: 100%;
+}
+.login
+{
+    display:flex;
+    flex-direction: row;
+}
+
+.jatem
+{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 90%;
+    margin-top: 12%;
+}
+
+.logar
+{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: transparent;
+    border: 0ch;
+    font-size: 90%;
+    color: #437e48;
+    margin-top: 12%;
+} 
+#logar
+{
+    margin-top: 11.5%;
+}
+#logar:hover
+{
+    
+    cursor: pointer;
+    text-decoration: underline;
+}
+#logar:active {
+    background-color: white;
+    color: #437e48;
+}
+
+
+
+

@@ -1,0 +1,551 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    height: 100%;
+    margin: 0%;
+}
+
+.container
+{
+    height: 100%;
+    background-color: yellow;
+}
+
+    .header
+    {
+        height: 10%;
+        width: 100%;
+        background-color: pink;
+        display: flex;
+    }
+
+        .logo
+        {
+            background-color: white;
+            height: 100%;
+            width: 20%;
+            font-size: 80px;
+            color:#437e48;
+            font-family: "Raleway", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .pesquisa
+        {
+            background-color: white;
+            height: 100%;
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .barraPesquisa
+        {
+            height: 70%;
+            width: 80%;
+            border-radius: 20px;
+            border-color:#437e48;
+            margin-right: 5%;
+            font-size: medium;
+            box-shadow: 5px 5px 10px #888;
+            padding-left: 50px;
+        }
+        .logoPesquisa
+        {
+            width: 25px;
+            height: 25px;
+            position: fixed;
+            margin-right: 31%;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+
+        .botoes
+        {
+            background-color: white;
+            height: 100%;
+            width: 40%;
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+        }
+        #fale
+        {
+            color: #437e48;
+            background-color: transparent;
+            border: 0cm;
+            font-size: 25px;
+        }
+
+        #fale:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        #fale:active{
+            background-color: white;
+            color: #437e48;
+        }
+
+        .chat
+        {
+            color: #437e48;
+            background-color: transparent;
+            border: 0cm;
+            font-size: 25px;
+        }
+
+        .chat:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        .chat:active{
+            background-color: white;
+            color: #437e48;
+        }
+
+        .inicio
+        {
+            color: #437e48;
+            background-color: transparent;
+            border: 0cm;
+            font-size: 25px;
+        }
+        .inicio:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        .inicio:active{
+            background-color: white;
+            color: #437e48;
+        }
+
+        .usuario
+        {
+            font-size: 30px;
+            margin-left: -15px;
+        }
+        
+    .meio
+    {
+        background-color: gray;
+        width: 100%;
+        height: 70%;
+        display: flex;
+    }
+        .barra
+        {
+            background-color:white;
+            height: 20%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            color: black;
+            font-size: 150%;
+            font-family: "Raleway", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+        }
+
+            .perfil
+            {
+                height: 70%;
+                width: 10%;
+                border-radius: 100%;
+                border: 0cm;
+                background-repeat: no-repeat;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+        .esquerda
+        {
+            background-color: white;
+            height: 100%;
+            width: 35%;
+
+        }
+            .barraesquerda
+            {
+                background-color:#437e48;
+                width: 100%;
+                height: 10%;
+                color: black;
+                font-size: 140%;
+                font-family: "Raleway", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: weight;
+                font-style: normal;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .ms
+            {
+                background-color: rgb(31, 30, 30);
+                height: 90%;
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            .caixas
+            {
+                background-color: rgb(31, 30, 30) ;
+                height: 10%;
+                width: 90%;
+                display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+                border-radius: 5px;
+                color: white;
+                font-size: 130%;
+                font-family: "Raleway", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: weight;
+                font-style: normal;
+            }
+
+            #caixas-botoes
+            {
+                background-color: rgb(31, 30, 30) ;
+                height: 10%;
+                width: 90%;
+                display: flex;
+                /* align-items: center;
+                justify-content: space-evenly; */
+                border-radius: 5px;
+                color: white;
+                font-size: 130%;
+                font-family: "Raleway", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: weight;
+                font-style: normal;
+            }
+
+            #botoesTr
+            {
+                height:80%;
+                width: 20%;
+                color: white;
+                background-color:#437e48;
+                border: 0;
+                border-radius: 5px;
+                margin-right: 20%;
+            }
+
+            #botoesTr:hover{
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+            #botoesTr:active{
+                background-color: white;
+                color: #437e48;
+            }
+
+            #botoesEx
+            {
+                height:80%;
+                width: 20%;
+                color: white;
+                background-color: rgb(248, 47, 47);
+                border: 0;
+                border-radius: 5px;
+                margin-right: 20%;
+            }
+    
+            #botoesEx:hover{
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+            #botoesEx:active{
+                background-color: white;
+                color: #437e48;
+            }
+
+        .direita
+        {
+            background-color: pink;
+            width: 65%;
+            height: 100%;
+       
+        }
+            .barradireita
+            {
+                background-color:#437e48;
+                width: 100%;
+                height: 10%;
+                color: black;
+                font-size: 140%;
+                font-family: "Raleway", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: weight;
+                font-style: normal;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .mm
+            {
+                height: 90%;
+                width: 100%;
+                display: flex;
+            }
+            .esquerdad
+            {
+                background-color:rgb(48, 48, 48);
+                width: 50%;
+                height: 100%;
+                border-right: 1px black solid;
+                border-left: 1px rgb(0, 0, 0) solid;
+            }
+
+            .direitad
+            {
+                background-color:rgb(48, 48, 48);
+                width: 50%;
+                height: 100%;
+            }
+
+            .caixass-primeirolugar
+            {
+                background-color: white;
+                height: 11%;
+                width: 100%;
+                display: flex;
+                color: black;
+                font-size: 90%;
+                font-family: "Raleway", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: weight;
+                font-style: normal;
+                justify-content:start;
+                align-items: center;
+            }
+
+            .caixass-segundolugar
+            {
+                background-color: white;
+                height: 11%;
+                width: 100%;
+                display: flex;
+                color: black;
+                font-size: 90%;
+                font-family: "Raleway", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: weight;
+                font-style: normal;
+                justify-content:start;
+                align-items: center;
+            }
+
+            .caixass-terceirolugar
+            {
+                background-color: white;
+                height: 11%;
+                width: 100%;
+                display: flex;
+                color: black;
+                font-size: 90%;
+                font-family: "Raleway", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: weight;
+                font-style: normal;
+                justify-content:start;
+                align-items: center;
+            }
+
+            .caixass
+            {
+                background-color: white;
+                height: 11%;
+                width: 100%;
+                display: flex;
+                color: black;
+                font-size: 90%;
+                font-family: "Raleway", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: weight;
+                font-style: normal;
+                justify-content:start;
+                align-items: center;
+            }
+
+            #caixas-ester
+            {
+                background-color: #acff80;
+                height: 11%;
+                width: 100%;
+                display: flex;
+                color: black;
+                font-size: 90%;
+                font-family: "Raleway", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: weight;
+                font-style: normal;
+                justify-content:start;
+                align-items: center;
+            }
+
+            .caixas-brasil
+            {
+                background-color: #acff80;
+                height: 11%;
+                width: 100%;
+                display: flex;
+                color: black;
+                font-size: 90%;
+                font-family: "Raleway", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: weight;
+                font-style: normal;
+                justify-content:start;
+                align-items: center;
+            }
+
+            #div-medalhaouro
+            {
+                height: 30px;
+                width: 30px;
+                margin-left: 8px;
+                border-radius: 20px;
+            }
+
+            #div-medalhaprata
+            {
+                height: 30px;
+                width: 30px;
+                margin-left: 8px;
+                border-radius: 20px;
+            }
+
+            #div-medalhabronze
+            {
+                height: 30px;
+                width: 30px;
+               
+                
+                margin-left: 8px;
+                border-radius: 20px;
+            }
+
+            .vermais
+            {
+               color: white;
+               font-size: 95%;
+               font-family: "Raleway", sans-serif;
+               font-optical-sizing: auto;
+               font-weight: weight;
+               font-style: normal;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               margin-top: 1.5%;
+            }
+            .vermais:hover{
+                cursor: pointer;
+            }
+           
+            .fotos
+            {
+                height: 90%;
+            }
+
+            #foto-ester
+            {
+                height: 37px;
+                width: 37px;
+                margin: 6.5px;
+            }
+
+            .foto-lucca
+            {
+                height: 38px;
+                width: 38px;
+                margin: 6.5px;
+            }
+
+            .foto-gustavo
+            {
+                height: 39px;
+                width: 39px;
+                margin: 4px;
+            }
+
+.numerosmedalhas
+{
+    height: 30px;
+    width: 30px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5%;
+}
+
+#div-naomedalhas
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numerosnaomedalhas
+{
+    height: 30px;
+    width: 30px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.nomes
+{
+    font-size: 20px;
+}
+
+.fotos-paises
+{
+    height: 32px;
+    width: 32px;
+    margin: 8px;
+}
+
+#fotos-paises-japao
+{
+    height: 43px;
+    width: 43px;
+    margin: 2px;
+}
+
+#fotos-paises-eua
+{
+    height: 35px;
+    width: 35px;
+    margin: 7px;
+}
+
+#fotos-paises-franca
+{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}

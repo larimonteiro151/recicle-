@@ -1,0 +1,315 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    height: 100%;
+    margin: 0;
+}
+
+.header
+    {
+        height: 10%;
+        width: 100%;
+        background-color: pink;
+        display: flex;
+    }
+    .espaçocima
+    {
+        height: 2%;
+    }
+
+        .logo
+        {
+            background-color: white;
+            height: 100%;
+            width: 20%;
+            font-size: 80px;
+            color:#437e48;
+            font-family: "Raleway", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .pesquisa
+        {
+            background-color: white;
+            height: 100%;
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .barraPesquisa
+        {
+            height: 70%;
+            width: 80%;
+            border-radius: 20px;
+            border-color:#437e48;
+            margin-right: 5%;
+            font-size: medium;
+            box-shadow: 5px 5px 10px #888;
+            padding-left: 50px;
+        }
+
+        .logoPesquisa
+        {
+            width: 25px;
+            height: 25px;
+            position: fixed;
+            margin-right: 31%;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .botoes
+        {
+            background-color: white;
+            height: 100%;
+            width: 40%;
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+        }
+
+        .cadastre-se
+        {
+            color: #437e48;
+            background-color: transparent;
+            border: 0cm;
+            font-size: 26px;
+        }
+
+        #fale
+        {
+            color: #437e48;
+            background-color: transparent;
+            border: 0cm;
+            font-size: 25px;
+        }
+
+        #fale:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        #fale:active{
+            background-color: white;
+            color: #437e48;
+        }
+
+        .chat
+        {
+            color: #437e48;
+            background-color: transparent;
+            border: 0cm;
+            font-size: 25px;
+        }
+
+        .inicio
+        {
+            color: #437e48;
+            background-color: transparent;
+            border: 0cm;
+            font-size: 25px;
+        }
+        .inicio:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        .inicio:active{
+            background-color: white;
+            color: #437e48;
+        }
+
+        .perfil
+        {
+            height: 62%;
+            width: 8.5%;
+            border-radius: 100%;
+            border: 0cm;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #image{
+            height: 60px;
+            width: 60px;
+        } 
+        
+        #image:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        #image:active{
+            background-color: white;
+            color: #437e48;
+        }
+        #meio
+        {
+            height: 88%;
+            width: 100%;
+            background-color: white;
+            display: flex;
+        }
+
+        #esquerda
+        {
+            height: 100%;
+            width: 34%;
+            background-color: #437e48;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .espaçomeio
+        {
+            height: 100%;
+            width: 1%;
+
+        }
+
+        #peguntasFrq
+        {
+            height: 35%;
+            width: 70%;
+            font-family: arial;
+            font-size: 40px;
+            margin-top: 7%;
+            color: #ffffff;
+        }
+
+        .perguntas
+        {
+            height: 40%;
+            width: 60%;
+            font-family: arial;
+            font-size: 25px;
+            color: #ffffff;
+            margin-right: 20%;
+        }
+
+        #direita
+        {
+            height: 100%;
+            width: 65%;
+            background-color: yellow;
+        }
+
+            .direita-cima
+            {
+                height: 13%;
+                width: 100%;
+                background-color: rgb(46, 46, 46); 
+                display: flex;
+                align-items: center;
+            }
+            .ia
+            {
+                height: 65px;
+                width: 65px;
+                border-radius: 50%;
+                margin: 0px 8px 0px 8px;
+            }
+            .nomerobo
+            {
+                color: white;
+                background-color: transparent;
+                border: 0cm;
+                font-size: 25px;
+                font-family: "Raleway", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: weight;
+                font-style: normal;
+            }
+
+            #direita-meio
+            {
+                height: 77%;
+                width: 100%;
+                background-color: rgb(85, 85, 85);
+                display: flex;
+
+            }
+            .mensagemchat
+            {
+                height: 90%;
+                width: 48%;
+                background-color:  rgb(85, 85, 85);
+                border-radius: 15px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-direction: column;
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+            .mensagemchatdnt
+            {
+                height: 15%;
+                width: 100%;
+                background-color: white;
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+            }
+            .ola
+            {
+               margin-left: 5%; 
+               font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            .mensagemchatDois
+            {
+                height: 90%;
+                width: 50%;
+                background-color:  rgb(85, 85, 85);
+                border-radius: 15px;
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+
+            .direita-baixo
+            {
+                height: 10%;
+                width: 100%;
+                background-color:  rgb(46, 46, 46);
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+
+            #digite
+            {
+                height: 60%;
+                width: 90%;
+                border: 0;
+                border-radius: 10px;
+            }
+
+            #enviar
+            {
+                background-color: white;
+                height: 70%;
+                width: 5%;
+                border: 0;
+                border-radius: 100%;
+            }
+            .seta
+            {
+                height: 100%;
+                width: 100%;
+                
+            }
+
+            .seta:hover{
+                cursor: pointer;
+            }
