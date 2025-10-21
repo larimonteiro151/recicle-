@@ -1,6 +1,6 @@
 function TrocaPagina(){
 
     
-    window.location.href='missoes.html'    
+    window.location.href='missoes.html'       
 
 }
